@@ -129,7 +129,8 @@ public:
         nMaxMoneyOut = 9999999999 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 21600;
+        //nLastPOWBlock = 21600;
+        nLastPOWBlock = 3400500;
         fPowNoRetargeting = true;
         nModifierUpdateBlock = 0;
         nZerocoinStartHeight = 0;
@@ -198,7 +199,7 @@ public:
         fAllowMinDifficultyBlocks = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
-        fMineBlocksOnDemand = false;
+        fMineBlocksOnDemand = true;
         fSkipProofOfWorkCheck = false;
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;

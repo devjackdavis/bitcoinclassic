@@ -156,6 +156,7 @@ protected:
     int64_t nTargetTimespan;
     int64_t nTargetSpacing;
     int nLastPOWBlock;
+    bool fPowNoRetargeting;
     int nMasternodeCountDrift;
     int nMaturity;
     int nModifierUpdateBlock;

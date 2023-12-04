@@ -19,7 +19,7 @@
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader* pblock)
 {
-    if (Params().NetworkID() == CBaseChainParams::REGTEST)
+    if (Params().NetworkID() == CBaseChainParams::REGTEST || Params().PowNoRetargeting())
         return pindexLast->nBits;
 
     /* current difficulty formula, bitcoinclassic - DarkGravity v3, written by Evan Duffield - evan@dashpay.io */

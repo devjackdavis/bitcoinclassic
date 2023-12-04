@@ -132,6 +132,7 @@ public:
         //nLastPOWBlock = 21600;
         nLastPOWBlock = 33400500;
         fPowNoRetargeting = true;
+        nPowReEnabledBlock = 440237;
         nModifierUpdateBlock = 0;
         nZerocoinStartHeight = 0;
         nZerocoinStartTime = 1574599216;

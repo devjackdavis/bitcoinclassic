@@ -158,6 +158,7 @@ protected:
     int64_t nTargetSpacing;
     int nLastPOWBlock;
     bool fPowNoRetargeting;
+    int nPowReEnabledBlock;
     int nMasternodeCountDrift;
     int nMaturity;
     int nModifierUpdateBlock;

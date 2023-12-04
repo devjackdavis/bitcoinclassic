@@ -130,7 +130,7 @@ public:
 
         /** Height or Time Based Activations **/
         //nLastPOWBlock = 21600;
-        nLastPOWBlock = 3400500;
+        nLastPOWBlock = 33400500;
         fPowNoRetargeting = true;
         nModifierUpdateBlock = 0;
         nZerocoinStartHeight = 0;
